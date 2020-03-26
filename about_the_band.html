@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #808080;
+  font-family: courier;
+  padding: 30px;
+  text-align: center;
+  font-size: 5vw;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 1200px;
+  background: #000000;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  font-family: verdana;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  height: 1200px;
+  background-color: #334d4d;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #999966;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+a:link {
+	color: white;
+}
+
+a:hover {
+	color: red;
+}
+
+a:visited {
+	color: white;
+}
+
+img {
+	max-height: 100%;
+    max-width: 100%;
+}
+
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>🅵🅾🅾 🅵🅸🅶🅷🆃🅴🆁🆂</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Home Page</a></li>
+      <li><a href="#">About the Band</a></li>
+      <li><a href="#">Top Albums</a></li>
+      <li><a href="#">Media</a></li>
+      <li><a href="#">Tour</a></li>
+    </ul>
+    <img src="https://27i1vg4d30zd8sfa41nrhds1-wpengine.netdna-ssl.com/wp-content/uploads/2014/06/Foo-Fighters51.jpg" height=130 width=130 />
+  </nav>
+  
+  <article style="color:white;">
+ 	<img src="https://images.kerrangcdn.com/Foo-Fighters-promo-2020-credit-Andreas-Neumann.jpg?auto=compress&fit=crop&w=1200"/>
+    <p>Foo Fighters is an American rock band, formed in Seattle, Washington, in 1994. It was founded by Nirvana drummer Dave Grohl as a one-man project following the dissolution of Nirvana after the suicide of Kurt Cobain. The group got its name from the UFOs and various aerial phenomena that were reported by Allied aircraft pilots in World War II, which were known collectively as "foo fighters".</p>
+    <p>Prior to the release of Foo Fighters' 1995 debut album Foo Fighters, which featured Grohl as the only official member, Grohl recruited bassist Nate Mendel and drummer William Goldsmith, both formerly of Sunny Day Real Estate, as well as Nirvana touring guitarist Pat Smear to complete the lineup. The band began with performances in Portland, Oregon. Goldsmith quit during the recording of the group's second album, The Colour and the Shape (1997), when most of the drum parts were re-recorded by Grohl himself. Smear's departure followed soon afterward, though he would appear as a guest with the band frequently starting in 2006, and would rejoin as an official full-time member in 2011.</p>
+    <p>They were replaced by Taylor Hawkins and Franz Stahl, respectively, although Stahl was fired before the recording of the group's third album, There Is Nothing Left to Lose (1999). The band briefly continued as a trio until Chris Shiflett joined as the band's lead guitarist after the completion of There Is Nothing Left to Lose. The band released its fourth album, One by One, in 2002. The group followed that release with the two-disc In Your Honor (2005), which was split between acoustic songs and heavier material. Foo Fighters released its sixth album, Echoes, Silence, Patience &#38; Grace, in 2007. The band's seventh studio album, Wasting Light, produced by Butch Vig, was released in 2011, in which Smear returned as a full member. In November 2014, the band's eighth studio album, Sonic Highways, was released as an accompanying soundtrack to the Grohl-directed 2014 miniseries of the same name. On September 15, 2017, the band released their ninth studio album, Concrete and Gold, which became their second to reach number one in the United States and was the band's first studio album to feature longtime session and touring keyboardist Rami Jaffee as a full member.</p>
+  </article>
+  
+</section>
+
+<footer>
+  <i>Copyright &copy; 2020 Justin Joiner. All Rights Reserved.</i>
+</footer>
+
+</body>
+</html>
